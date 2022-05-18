@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta author="grupo 1">
+    <title>INICI</title>
+    <link rel="stylesheet" href="estils.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/kulhu-one" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+      <nav class="normal">
+        <ul>
+            <a href="#home" class="active" ><img src="img/logo.png" width="100px"></a>
+          <!-- barra de menú -->
+          <li style="float:right"><a class="active" href="merch.html">MERCHANDISING</a></li>
+          <li style="float:right"><a class="active" href="contacto.html">CONTACTE</a></li>
+          <li style="float:right"><a class="active" href="recetas.html">RECEPTES</a></li>
+          <li style="float:right"><a class="active" href="quienes.html">QUI SOM?</a></li>
+          <li style="float:right"><a class="active" href="index.html">INICI</a></li>
+          <div class="clear"></div>
+          <!-- nuestros apartados -->
+        </ul>
+        <div class="inici">
+          <div class="welcome">
+            <img src="img/logo.png">
+            <span>Que Aprofiti!</span>
+          </div>
+          <div class="">
+
+          </div>
+        </div>
+
+      </nav>
+      <!--imagenes slider -->
+
+
+      <nav class="mobile">
+        <div class="topnav">
+          <a href="#home" class="active" ><img src="img/logo.png" width="100px"></a>
+          <!-- logotipo en la barra de navegación -->
+            <div id="myLinks">
+            <!-- menu hamburguesa -->
+              <a href="index.html">INICI</a>
+              <a href="quienes.html">QUI SOM?</a>
+              <a href="recetas.html">RECEPTES</a>
+              <a href="contacto.html">CONTACTE</a>
+              <a href="merch.html">MERCHANDISING</a>
+            <!-- nuestros apartados -->
+            </div>
+            <!--función del javascript para abrir el menú hamburguesa-->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <div class="inici-mov">
+          <div class="contenedor-mov-inici">
+            <img src="img/logo.png">
+            <span>Que Aprofiti!</span>
+          </div>
+
+        </div>
+      </nav>
+
+      <div class="footer">
+        &copy; Copyright 2022 - AFIYET OLSUN
+      </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+
+      <style>
+      @import url('http://fonts.cdnfonts.com/css/kulhu-one');
+      </style>
+
+  </body>
+</html>

@@ -1,0 +1,52 @@
+body{
+  background-color: silver;
+}
+
+#contenedor{
+  width: 1600px;
+}
+
+#cabecera{
+  background-color: #edc406;
+  background-image: url("../e_ggarcia/logo.jpeg");
+  background-repeat: no-repeat;
+  height: 100px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.cajablanca{
+  background-color: #FFFF;
+  height: 600px;
+  width: 350px;
+  margin: 5px;
+  border: solid 4px white;
+  float: left;
+}
+
+.num{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: solid 2px #343434;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#footer{
+  background-color: #edc406;
+  height: 50px;
+  font-size: 14px;
+}
+
+#footer p{
+  text-align: center;
+}
+
+.clear{
+  clear: both;
+}
